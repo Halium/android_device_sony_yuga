@@ -29,3 +29,6 @@ include $(DEVICE_PATH)/board/*.mk
 
 # Board device vendor
 -include vendor/sony/yuga/BoardConfigVendor.mk
+
+# Boot kernel in debug mode
+TARGET_KERNEL_CMDLINE := bootmode=debug
